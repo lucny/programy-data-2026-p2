@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programy a data</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    .rubik-font {
+      font-family: "Rubik", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: italic;
+    }
+
+    h3 {
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .container div {
+      background-color: rgba(100, 100, 100, 0.7);
+      width: 30%;
+      margin: 5px;
+      padding: 10px;
+    }
+
+    /* Make a one column-layout instead of three-column layout */
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .container div {
+        width: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="rubik-font">Programy a data - úvodní stránka</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div>
+        <a href="./a/index.html">
+          <h3>Programové a datové soubory</h3>
+        </a>
+        <ul>
+          <li><a href="">podnadpis 1</a></li>
+          <li><a href="">podnadpis 2</a></li>
+          <li><a href="">podnadpis 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="">
+          <h3>Čeština</h3>
+        </a>
+        <ul>
+          <li><a href="">podnadpis 1</a></li>
+          <li><a href="">podnadpis 2</a></li>
+          <li><a href="">podnadpis 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="">
+          <h3>Nazev kapitoly 3</h3>
+        </a>
+        <ul>
+          <li><a href="">podnadpis 1</a></li>
+          <li><a href="">podnadpis 2</a></li>
+          <li><a href="">podnadpis 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="">
+          <h3>Nazev kapitoly 4</h3>
+        </a>
+        <ul>
+          <li><a href="">podnadpis 1</a></li>
+          <li><a href="">podnadpis 2</a></li>
+          <li><a href="">podnadpis 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="">
+          <h3>Nazev kapitoly 5</h3>
+        </a>
+        <ul>
+          <li><a href="">podnadpis 1</a></li>
+          <li><a href="">podnadpis 2</a></li>
+          <li><a href="">podnadpis 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="./f/index.html">
+          <h3>Softwarové licence</h3>
+        </a>
+        <ul>
+          <li><a href="">podnadpis 1</a></li>
+          <li><a href="">podnadpis 2 </a></li>
+          <li><a href="./f/index.html#srovnani-licenci">Srovnání licencí</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
+</html>
